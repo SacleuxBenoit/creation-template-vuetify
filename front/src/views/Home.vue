@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-<Button/>
+<Header/>
   </div>
 </template>
 
 <script>
-import Button from '../components/Button'
+import Header from '../components/Header'
 export default {
   name: "Home",
   components: {
-    Button
+    Header
   }
 };
 </script>
