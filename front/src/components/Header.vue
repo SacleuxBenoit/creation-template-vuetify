@@ -6,7 +6,7 @@
       <router-link to="/"><strong>Home</strong></router-link>
     </v-btn>
     <v-btn>
- <router-link to="#"><strong>Button</strong></router-link> 
+ <router-link to="/button"><strong>Button</strong></router-link> 
     </v-btn>
     <v-btn>
  <router-link to="#"><strong>?</strong></router-link>
