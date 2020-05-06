@@ -1,6 +1,6 @@
 <template>
-  <v-row align="center">
-    <v-col class="text-center" cols="12" sm="3">
+  <v-row class="containerButton">
+    <v-col class="text-center" cols="12" sm="4">
       <div class="my-2">
         <v-btn depressed small>Normal</v-btn>
       </div>
@@ -15,7 +15,7 @@
       </div>
     </v-col>
 
-    <v-col class="text-center" cols="12" sm="3">
+    <v-col class="text-center" cols="12" sm="4">
       <div class="my-2">
         <v-btn depressed>Normal</v-btn>
       </div>
@@ -30,7 +30,7 @@
       </div>
     </v-col>
 
-    <v-col class="text-center" cols="12" sm="3">
+    <v-col class="text-center" cols="12" sm="4">
       <div class="my-2">
         <v-btn depressed large>Normal</v-btn>
       </div>
@@ -46,3 +46,11 @@
     </v-col>
   </v-row>
 </template>
+
+<style>
+.containerButton{
+    border-bottom : 1px solid #000; 
+    background-color: #8FAFF9;
+    text-align:center;
+}
+</style>
