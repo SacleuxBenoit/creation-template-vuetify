@@ -50,7 +50,6 @@
 <style>
 .containerButton{
     border-bottom : 1px solid #000; 
-    background-color: #8FAFF9;
     text-align:center;
 }
 </style>
