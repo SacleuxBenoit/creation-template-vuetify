@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Button from '../components/Button'
-import Icones from '../components/Icones'
+import Button from '../components/Button/Button.vue'
+import Icones from '../components/Button/Icones'
 export default {
   name: "button",
   components: {
