@@ -2,17 +2,19 @@
   <v-card class="overflow-hidden">
     <div class="center HeaderColor">
       <v-toolbar-title>Template vuetify</v-toolbar-title> 
+       <router-link to="/">
      <v-btn>
-      <router-link to="/"><strong>Home</strong></router-link>
+       <strong>Home</strong>
     </v-btn>
+       </router-link>
+       <router-link to="/button">
     <v-btn>
- <router-link to="/button"><strong>Button</strong></router-link> 
+      <strong>Button</strong>
     </v-btn>
+        </router-link> 
     <v-btn>
  <router-link to="#"><strong>?</strong></router-link>
     </v-btn>
-
-
   </div>
   </v-card>
 </template>
