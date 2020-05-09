@@ -1,5 +1,5 @@
 <template>
-  <v-row class="containerButton">
+  <v-row class="containerButton marginButton">
     <v-col class="text-center" cols="12" sm="4">
       <div class="my-2">
         <v-btn depressed small>Normal</v-btn>
@@ -51,5 +51,9 @@
 .containerButton{
     border-bottom : 1px solid #000; 
     text-align:center;
+}
+
+.marginButton{
+  margin-top: 2rem;
 }
 </style>
