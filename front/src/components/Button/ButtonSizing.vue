@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="pa-0">
+  <v-container fluid class="pa-0 containerButton">
     <v-row align="center">
       <v-col cols="12" sm="6">
         <div class="text-center">
