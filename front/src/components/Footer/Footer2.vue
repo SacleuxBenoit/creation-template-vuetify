@@ -1,4 +1,3 @@
-
 <template >
   <v-footer
     padless class="marginFooter"
@@ -11,6 +10,7 @@
         v-for="link in links"
         :key="link"
         text
+        rounded
       >
         {{ link }}
       </v-btn>
@@ -37,7 +37,3 @@
     }),
   }
 </script>
-
-<style>
-
-</style>
