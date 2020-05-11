@@ -1,7 +1,7 @@
 
 <template >
   <v-footer
-    padless
+    padless class="marginFooter"
   >
     <v-row
       justify="center"
@@ -14,7 +14,7 @@
       >
         {{ link }}
       </v-btn>
-      <v-col
+      <v-col class="containerFooter"
         cols="12"
       >
         {{ new Date().getFullYear() }} — <strong>Template vuetify</strong>
