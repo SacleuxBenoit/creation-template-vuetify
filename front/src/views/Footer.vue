@@ -13,7 +13,7 @@ import Footer3 from '../components/Footer/Footer3'
 export default {
     components:{
         Footer,
-        Footer2
+        Footer2,
         Footer3
     }
 }
