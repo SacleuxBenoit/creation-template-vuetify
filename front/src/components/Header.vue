@@ -20,7 +20,13 @@
           <strong>Footer</strong>
         </v-btn>
       </router-link>
-      
+
+      <router-link to="/card">
+        <v-btn>
+          <strong>Card</strong>
+        </v-btn>
+      </router-link>
+
   </div>
   </v-card>
 </template>
