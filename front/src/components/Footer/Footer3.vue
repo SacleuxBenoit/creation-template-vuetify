@@ -1,4 +1,5 @@
 <template>
+<v-app>
   <v-footer
     dark
     padless class="marginFooter"
@@ -30,6 +31,7 @@
       </v-card-text>
     </v-card>
   </v-footer>
+  </v-app>
 </template>
 
 <script>
